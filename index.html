@@ -434,5 +434,8 @@ const restored=loadState();
 renderRows(); renderActions();
 go(restored && Number.isInteger(restored.screen) ? restored.screen : 0);
 </script>
+<!-- Vercel Web Analytics (no-build, static HTML) -->
+<script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments);};</script>
+<script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>
