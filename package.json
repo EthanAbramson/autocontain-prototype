@@ -1,0 +1,22 @@
+{
+  "name": "autocontain-prototype",
+  "version": "1.0.0",
+  "description": "Clickable UX prototype for the Autocontain feature concept",
+  "type": "module",
+  "scripts": {
+    "build": "esbuild analytics.js --bundle --outfile=dist/analytics.js --format=iife"
+  },
+  "keywords": [
+    "prototype",
+    "autocontain",
+    "ion"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.0"
+  }
+}
